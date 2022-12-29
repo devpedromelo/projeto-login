@@ -13,8 +13,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor-verde: #49a09d;
+    --cor-lilas: #5f2c82;
+}
+
 body{
-    background-color: #5f2c82;
+    background-color: var(--cor-lilas);
     height: 100vh;
     width: 100wh;
 }
@@ -37,11 +42,14 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;/*Tudo que estiver fora da borda será escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449);
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;/*da uma suavisada na transição*/
 }
 
 section > div#imagem{
     display: block;
-    background-color: #5f2c82;
+    background-color: var(--cor-lilas);
     background-image: url(../imagens/predio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
