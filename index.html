@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mq.css">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -16,8 +17,22 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
-                <form action="login.php" autocomplete="off" method="post">
-                    
+                <form action="login.php" autocomplete="on" method="post">
+                    <div class="campo">
+                        <span 
+                        class="material-icons">person</span>
+                        <input type="text" name="nome" id="inome" placeholder="Digite seu nome de login" autocomplete="username" required maxlength="30">
+                        <label for="inome">Login: </label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8">
+                        <label for="isenha">Senha: </label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueciasenha.html">
+                        Esqueci a senha <span class="material-icons">mail</span>
+                    </a>
                 </form>
             </div>
         </section>
