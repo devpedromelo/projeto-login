@@ -28,11 +28,16 @@
     }
     
     div#form > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        text-indent: 10px;
     }
 
     form > div.campo{
         width: 59.5%;
+    }
+
+    div.campo > input{
+        transform: translateY(-10px);
     }
 
     form > input[type=submit] {
@@ -73,10 +78,16 @@
     
     div#form > p{
         font-size: 1.2em;
+        margin: 20px 0px;
+        text-indent: 20px;
     }
 
     form > div.campo{
         width: 49.5%;
+    }
+
+    div.campo > input{
+        transform: translateY(-9px);
     }
 
     form > input[type=submit] {
