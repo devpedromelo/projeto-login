@@ -74,11 +74,36 @@ div#form > p{
 form > div.campo{
     background-color: var(--cor-lilas);
     display: block;
+    border: 2px solid var(--cor-lilas);
     height: 40px;
     width: 100%;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+div.campo > label{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #aefefb;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translateY(-10px);
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+div.campo > input:focus-within{
+    /* Quando eu clicar e dgitar nele */
+
+    background-color: white;
 }
 
 form > input[type=submit] {

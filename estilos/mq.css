@@ -7,53 +7,19 @@
     }
 
     section#login{
-        width: 80vw;
-    }
-
-    section#login > div#imagem{
-        float: left;
-        width: 25%;
-        height: 100%;
-        background-position: center bottom;
-    }
-
-    section#form{
-        float: right;
-    }
-
-    form > div.campo{
-        width: 99.5%;
-    }
-
-    form > input[type=submit] {
-        width: 75%;
-    }
-
-    form > a.botao{
-        width: 99.5%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    body, html{
-        background-image: linear-gradient(to bottom, var(--cor-lilas), var(--cor-verde));
-        background-size: cover;
-    }
-
-    section#login{
-        width: 960px;
+        width: 778px;
+        height: 350px;
     }
 
     section#login > div#imagem{
         float: right;
         width: 40%;
         height: 100%;
-        background-position: center bottom;
+        background-position: top top;
     }
 
     section#form{
-        float: left;
+        float: right;
         width: 60%;
     }
 
@@ -75,5 +41,49 @@
 
     form > a.botao{
         width: 59.5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body, html{
+        background-image: linear-gradient(to bottom, var(--cor-lilas), var(--cor-verde));
+    }
+
+    section#login{
+        width: 960px;
+        height: 365px;
+    }
+
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: center bottom;
+    }
+
+    section#form{
+        float: left;
+        width: 50%;
+    }
+
+    div#form > h1{
+        font-size: 1.5em;
+    }
+    
+    div#form > p{
+        font-size: 1.2em;
+    }
+
+    form > div.campo{
+        width: 49.5%;
+    }
+
+    form > input[type=submit] {
+        width: 49.5%;
+    }
+
+    form > a.botao{
+        width: 49.5%;
     }
 }
