@@ -4,7 +4,6 @@
 
     body{
         background-image: linear-gradient(to top, var(--cor-lilas), var(--cor-verde));
-        height: 100vh;
     }
 
     section#login{
@@ -24,11 +23,10 @@
     }
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
 
     body{
         background-image: linear-gradient(to bottom, var(--cor-lilas), var(--cor-verde));
-        height: 100vh;
     }
 
     section#login{
