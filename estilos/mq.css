@@ -4,6 +4,7 @@
 
     body{
         background-image: linear-gradient(to top, var(--cor-lilas), var(--cor-verde));
+        height: 100vh;
     }
 
     section#login{
@@ -27,6 +28,7 @@
 
     body{
         background-image: linear-gradient(to bottom, var(--cor-lilas), var(--cor-verde));
+        height: 100vh;
     }
 
     section#login{
