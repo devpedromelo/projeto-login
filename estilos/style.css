@@ -70,3 +70,57 @@ div#form > h1{
 div#form > p{
     font-size: 0.9em;
 }
+
+form > div.campo{
+    background-color: var(--cor-lilas);
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #3d105c;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.471);
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor-verde);
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #5ecfcb;   
+    color: #245653;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.471);
+}
+
+form > a.botao:hover{
+    background-color: white;
+    border: 1px solid #5ecfcb;
+    color: darkred;
+}
+
+form > a.botao > span{
+    font-size: 0.8em;
+}
